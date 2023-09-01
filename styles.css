@@ -1,0 +1,106 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/search.css");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/menu-right-alt.css");
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&family=Oswald:wght@200;300;400;600&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.navbar {
+  display: flex;
+  background-color: rgb(165, 165, 165);
+  height: 50px;
+}
+
+.searchIcon
+{
+padding: 1em;
+}
+
+.searchBar
+{
+ flex: 1;
+ padding: 8px;
+ margin-bottom: 10px;
+ height: 32px;
+}
+
+.inputText {
+   border-radius: 200px;
+   width: 250px;
+  padding: 10px;
+  border: 0.1px solid black;
+}
+
+.inputText::after , .inputText::before , .inputText:focus
+{
+  border: 0.1px solid black;
+  
+}
+
+
+.navList{
+    justify-content: flex-end;
+    padding: 10px 10px 10px 0;
+    size: 20px;
+}
+
+.gg-menu-right-alt {
+
+}
+
+.introContainer {
+  display: flex;
+}
+
+.intro {
+  /* font-family:  ; */
+  padding: 20px 0 0 50px ;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.intro h1{
+  font-size: 70px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+
+}
+
+.intro h3
+{
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
+
+
+}
+
+.intro p{
+
+  font-size: 20px;
+  font-family: 'Cormorant Garamond', serif;
+
+
+}
+
+.sketch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.sketchImage {
+  height: 400px;
+  width: 450px;
+  /* border-radius: 50%; */
+}
+
+
+
